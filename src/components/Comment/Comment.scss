@@ -1,0 +1,38 @@
+.comment {
+  width: 43rem;
+  height: 8.5rem;
+  background: #343a40;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  &-list {
+    padding: 0;
+    list-style-type: none;
+    height: 4.3rem;
+    width: 42rem;
+    background: #eee;
+    color: #333;
+    margin: 0 auto;
+    &-item {
+      font-size: 0.9rem;
+      padding: 6px;
+    }
+  }
+  &-header {
+      width: 100%;
+      display: inline-flex;
+      justify-content: space-between;
+    & h3 {
+      font-size: 1rem;
+      padding: 5px;
+    }
+    &-delete {
+      color: red;
+      padding-top: 25px;
+      padding-right:5px;
+      cursor: pointer;
+    }
+  }
+}

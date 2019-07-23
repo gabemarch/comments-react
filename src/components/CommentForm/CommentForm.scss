@@ -1,0 +1,33 @@
+.notification-item-commentbox {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification-textarea {
+  margin-top: 1rem;
+  display: flex;
+  width: 43.5rem;
+  height: 6rem;
+}
+
+.notification-item-commentbox-btn {
+  border: none;
+  outline: none;
+  background: lightblue;
+  height: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-comment-btn {
+  outline: none;
+  border: none;
+  background: lightblue;
+  color: #fff;
+  cursor: pointer;
+  height:2rem;
+  transition: .3s ease-in-out;
+  &:hover {
+    background: blueviolet;
+    transition: .3s ease-in-out;
+  }
+}

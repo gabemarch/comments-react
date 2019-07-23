@@ -1,0 +1,53 @@
+.notification-item {
+  height: 18rem;
+  background: #343a40;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 3px 4px 15px #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  max-width: 700px;
+  &-header {
+    width: 400px;
+    padding: 10px;
+    align-content: center;
+  }
+  &-username {
+    display: block;
+    font-weight: bold;
+    align-self: baseline;
+    font-size: 1.6rem;
+    margin: -2.5rem 5rem;
+  }
+  &-avatar {
+    margin: 0;
+    font-size: 3.5rem;
+    color: lightblue;
+  }
+  &-content {
+    padding: 20px 0 0 15px;
+  }
+  &-like-counter {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  &-button {
+    outline: none;
+    background: lightblue;
+    color: #fff;
+    justify-content: space-around;
+    border: none;
+    margin: 10px 0px 5px 15px; 
+    text-align: center;
+    width: 13rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    &:hover{
+      background: blueviolet;
+    }
+  }
+}
